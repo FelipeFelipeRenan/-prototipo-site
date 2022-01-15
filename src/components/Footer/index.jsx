@@ -3,6 +3,7 @@ import "./index.scss";
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-div">
       <p id="thanks">
         Copyright &copy; 2021 Desenvolvido com muito &#128151; pela Calang.io
       </p>
@@ -16,6 +17,7 @@ const Footer = () => {
         <a href="#">
           <i className="fab fa-facebook-f"></i>
         </a>
+      </div>
       </div>
     </footer>
   );

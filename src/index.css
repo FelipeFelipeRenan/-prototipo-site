@@ -17,13 +17,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-footer {
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
-  height: 100px;    
-  text-align: center;
-  line-height: 100px;
-}
+
+
+
 
