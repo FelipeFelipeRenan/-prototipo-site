@@ -6,12 +6,16 @@ const Cliente = () =>{
     return(
         <>
             <div className="container-clientes">
-                Clientes
-                <div className="sobre">
-                    Sobre nós
-                    <div className="sobre-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aut voluptate, unde ea ipsa natus id, repellendus similique minus, quam pariatur sapiente officiis repudiandae error delectus a. Iure, perferendis error.</div>
                 
+                <div className="clientes">
+                    <h1>Clientes</h1>
+                    <img src="logo-ufca.jpg" alt="Logo UFCA" />
+                </div>
+                <div className="sobre">
+                    <h1>Sobre nós</h1>
+                    <div className="sobre-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad voluptatum quasi labore placeat reiciendis, aut nisi, aliquid ab officiis vero quam dolorem eos corporis optio cupiditate ratione accusamus dolores?
+                    </div>
                 </div>
             </div>
         

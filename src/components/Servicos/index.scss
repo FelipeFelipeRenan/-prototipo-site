@@ -9,13 +9,13 @@
   height: 700px ;
 
   h1{
-    padding-top: 10px;
+    margin-bottom: 50px;
   }
 
   h1::after{
     content: "";
     position: absolute;
-    top: 85%; 
+    top: 108%; 
     left: 45%;
     width: 10%; 
     height: 0.2em; 
@@ -23,12 +23,12 @@
     margin-bottom: 20px;
 
   }
-  
-}
+
 
 .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 10px;
+  gap: 50px;
+}
 }
