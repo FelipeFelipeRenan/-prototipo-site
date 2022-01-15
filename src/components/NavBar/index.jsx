@@ -14,7 +14,7 @@ const NavBar = () => {
           <a href="#">Contato</a>
         </div>
         <div id="icons">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/calang-io-empresa-jr-007926212">
             <i className="fab fa-linkedin-in"></i>
           </a>
           <a href="#">

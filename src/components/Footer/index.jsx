@@ -8,7 +8,7 @@ const Footer = () => {
         Copyright &copy; 2021 Desenvolvido com muito &#128151; pela Calang.io
       </p>
       <div id="iconsFooter">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/calang-io-empresa-jr-007926212">
           <i className="fab fa-linkedin-in"></i>
         </a>
         <a href="#">
