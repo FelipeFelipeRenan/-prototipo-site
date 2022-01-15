@@ -1,12 +1,11 @@
-.footer {
+footer {
   background-color: #77be00;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   #thanks {
     margin: 2em;
   }

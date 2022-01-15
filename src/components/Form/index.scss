@@ -1,0 +1,53 @@
+
+.form-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #112D69;
+    height: 500px;
+    width: 100% ;
+    h2{
+        color:aliceblue;
+    }
+    button{
+    
+        background-color: #77be00;
+        margin-top: 5px;
+        border-radius: 10%;
+
+    }
+    
+    .form-nomes{
+        display:inherit;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 10px;
+        
+        input{
+            height: 30px;
+            border-radius: 15%;
+        }
+    }
+    .form-informacoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        .telefone{
+            justify-self: center;
+            width: 300px; 
+            border-radius: 15%;
+            width: 350px;
+            height: 30px;
+            
+            margin-bottom: 10px;
+        }
+        .descricao{
+            height: 300px;
+            border-radius: 5%;
+    
+            }
+        }
+}
