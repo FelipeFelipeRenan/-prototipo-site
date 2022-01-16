@@ -4,6 +4,7 @@ import "./index.scss";
 const ServicosCards = () => {
   return (
     <div className="container-external">
+      <a className="redirect" name="container-external"></a>
       <h1>Serviços</h1>
       <div className="container">
         <CardItem

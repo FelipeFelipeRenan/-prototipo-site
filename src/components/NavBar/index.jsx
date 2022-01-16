@@ -8,10 +8,10 @@ const NavBar = () => {
       <div id="opt-container">
         <div id="opts">
           <a href="#">Início</a>
-          <a href="#">Sobre</a>
-          <a href="#">Clientes</a>
-          <a href="#">Serviços</a>
-          <a href="#">Contato</a>
+          <a href="#sobre-text">Sobre</a>
+          <a href="#clientes">Clientes</a>
+          <a href="#container-external">Serviços</a>
+          <a href="#form-contact">Contato</a>
         </div>
         <div id="icons">
           <a href="https://www.linkedin.com/in/calang-io-empresa-jr-007926212">

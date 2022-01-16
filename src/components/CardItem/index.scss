@@ -14,4 +14,7 @@
   width: 300px;
   border-color: red;
   text-align: center;
+  .card:hover{
+    transform: scale(1.5);
+  }
 }
