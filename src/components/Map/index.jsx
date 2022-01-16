@@ -38,9 +38,11 @@ const Map = () => {
         dragging={false}
 
       >
+          <div className="container-mapa">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        </div>
       </MapContainer>
     </div>
   );

@@ -25,12 +25,16 @@ const Form = () => {
             <button type="submit">Enviar</button>
           </form>
         </div>
-        <h2>Nos localize</h2>
-        <div className="map">
-          <a href="https://www.google.com.br/maps/@-7.2574966,-39.3043456,1172m/data=!3m1!1e3" target="_blank" rel='noreferrer'>
-            
-          <Map />
-        </a>
+        <div className="title-and-map">
+          <div className="map">
+            <a
+              href="https://www.google.com.br/maps/@-7.2574966,-39.3043456,1172m/data=!3m1!1e3"
+              target="_blank"
+              rel="noreferrer"
+            >
+             <h1 id="localize">Clique para nos achar!</h1>
+            </a>
+          </div>
         </div>
       </div>
     </>
