@@ -1,26 +1,40 @@
 import "./index.scss";
+import Map from "../Map";
 
 const Form = () => {
   return (
     <>
-      <div className="form-contact">
-        <a name="form-contact"></a>
-        
-      <form>
-      <h2>Fale conosco</h2>
-        <div className="form-nomes">
-          <input type="text" placeholder="Nome" />
-          <input type="text" placeholder="Sobrenome" />
+      <div className="map-form-container">
+        <div className="form-contact">
+          <a name="form-contact"></a>
+
+          <form>
+            <h2>Fale conosco</h2>
+            <div className="form-nomes">
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="Sobrenome" />
+            </div>
+            <div className="form-informacoes">
+              <input type="tel" placeholder="Contato" className="telefone" />
+              <input
+                type="text"
+                placeholder="Descrição"
+                className="descricao"
+              />
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
         </div>
-        <div className="form-informacoes" >
-          <input type="tel" placeholder="Contato" className="telefone"/>
-          <input type="text" placeholder="Descrição" className="descricao" />
+        <h2>Nos localize</h2>
+        <div className="map">
+          <a href="https://www.google.com.br/maps/@-7.2574966,-39.3043456,1172m/data=!3m1!1e3" target="_blank" rel='noreferrer'>
+            
+          <Map />
+        </a>
         </div>
-        <button type="submit">Enviar</button>
-      </form>
       </div>
     </>
   );
 };
 
-export default Form
+export default Form;
