@@ -14,7 +14,9 @@
   width: 300px;
   border-color: red;
   text-align: center;
-  .card:hover{
-    transform: scale(1.5);
+
   }
+  .card:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
