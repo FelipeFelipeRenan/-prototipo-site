@@ -1,5 +1,5 @@
 import "./index.scss";
-import Map from "../Map";
+import InputMask from 'react-input-mask';
 
 const Form = () => {
   return (
@@ -15,7 +15,8 @@ const Form = () => {
               <input type="text" placeholder="Sobrenome" />
             </div>
             <div className="form-informacoes">
-              <input type="tel" placeholder="Contato" className="telefone" />
+             <InputMask mask="(99)99999-9999" className="tel"></InputMask>
+
               <input
                 type="text"
                 placeholder="Descrição"
