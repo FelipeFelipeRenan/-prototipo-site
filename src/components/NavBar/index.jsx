@@ -4,7 +4,7 @@ import "./index.scss";
 const NavBar = () => {
   return (
     <header>
-      <p id="futura-imagem"> Icone da pagina </p>
+      <img src="logo2.svg" alt="logo Calang.io" />
       <div id="opt-container">
         <div id="opts">
           <a href="#">Início</a>
