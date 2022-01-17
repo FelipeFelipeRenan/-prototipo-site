@@ -1,5 +1,6 @@
+import { TextField } from "@mui/material";
+import InputTel from "../Input";
 import "./index.scss";
-import InputMask from 'react-input-mask';
 
 const Form = () => {
   return (
@@ -11,16 +12,28 @@ const Form = () => {
           <form>
             <h2>Fale conosco</h2>
             <div className="form-nomes">
-              <input type="text" placeholder="Nome" />
-              <input type="text" placeholder="Sobrenome" />
+              <TextField
+                id="filled-basic"
+                label="Nome"
+                variant="filled"
+                margin="normal"
+              />
+              <TextField
+                id="filled-basic"
+                label="Sobrenome"
+                variant="filled"
+                margin="normal"
+              />
             </div>
+            <InputTel />
             <div className="form-informacoes">
-             <InputMask mask="(99)99999-9999" className="tel"></InputMask>
-
-              <input
-                type="text"
-                placeholder="Descrição"
-                className="descricao"
+              <TextField
+                id="outlined-multiline-static"
+                label="Descrição"
+                multiline
+                rows={4}
+                variant="filled"
+                margin="normal"
               />
             </div>
             <button type="submit">Enviar</button>
@@ -33,7 +46,7 @@ const Form = () => {
               target="_blank"
               rel="noreferrer"
             >
-             <h1 id="localize">Clique para nos achar!</h1>
+              <h1 id="localize">Clique para nos achar!</h1>
             </a>
           </div>
         </div>
