@@ -1,24 +1,28 @@
+import { Container } from "@material-ui/core";
 import { TextField } from "@mui/material";
-import InputTel from "../Input";
+import { InputTel, useStyles } from "../Input";
 import "./index.scss";
 
 const Form = () => {
+  const classes = useStyles();
   return (
     <>
       <div className="map-form-container">
         <div className="form-contact">
           <a name="form-contact"></a>
 
-          <form>
+          <form autoComplete="off">
             <h2>Fale conosco</h2>
             <div className="form-nomes">
               <TextField
+                className={classes.root}
                 id="filled-basic"
                 label="Nome"
                 variant="filled"
                 margin="normal"
               />
               <TextField
+                className={classes.root}
                 id="filled-basic"
                 label="Sobrenome"
                 variant="filled"
@@ -28,6 +32,7 @@ const Form = () => {
             <InputTel />
             <div className="form-informacoes">
               <TextField
+                className={classes.root}
                 id="outlined-multiline-static"
                 label="Descrição"
                 multiline
