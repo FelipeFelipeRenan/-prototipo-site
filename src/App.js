@@ -4,7 +4,7 @@ import ServicosCards from "./components/Servicos";
 import Form from "./components/Form";
 import Cliente from "./components/Clientes";
 import Equipe from "./components/Equipe-layout";
-import { createTheme, ThemeProvider } from "@material-ui/core"
+import { createTheme, ThemeProvider } from "@material-ui/core";
 import { purple } from "@material-ui/core/colors";
 
 const theme = createTheme({
@@ -12,7 +12,9 @@ const theme = createTheme({
     primary: {
       main: "#f0f8ff",
     },
-    secondary: purple,
+    secondary: {
+      main: purple,
+    },
   },
 });
 function App() {

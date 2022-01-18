@@ -38,12 +38,11 @@ export const useStyles = makeStyles({
   root: {
     "& 	.MuiFilledInput-root": {
       color: "#f0f8ff",
-      textColor: "white",
+      textColor: "#f0f8ff",
     },
-    "& 	.MuiFilledInput-input": {
-      color: "#f0f8ff",
-    },
-    "& 	.MuiFilledInput-adornedStart": {
+
+    "& 	.Mui-focused": {
+      textColor: "#f0f8ff",
       color: "#f0f8ff",
     },
   },
