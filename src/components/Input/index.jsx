@@ -37,14 +37,15 @@ import { makeStyles, TextField } from "@material-ui/core";
 export const useStyles = makeStyles({
   root: {
     "& 	.MuiFilledInput-root": {
-      color: "green",
+      color: "#f0f8ff",
+      textColor: "white",
     },
-    "& 	.MuiFilledInput-input":{
-      color: "green"
+    "& 	.MuiFilledInput-input": {
+      color: "#f0f8ff",
     },
-    "& 	.MuiFilledInput-adornedStart":{
-      color: "green"
-    }
+    "& 	.MuiFilledInput-adornedStart": {
+      color: "#f0f8ff",
+    },
   },
 });
 
@@ -60,16 +61,13 @@ export const InputTel = (props) => {
       {(inputProps) => (
         <TextField
           className={classes.root}
-          sx={{ width: "500px" }}
+          fullWidth
           id="filled-basic"
           label="Telefone"
           variant="filled"
           margin="normal"
-
         />
       )}
     </InputMask>
   );
 };
-
-;
